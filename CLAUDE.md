@@ -1,148 +1,64 @@
-# CLAUDE.md
+# CLAUDE.md -- LLMs as Boundary Phenomena
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+## Role: Editor/Researcher
+
+Deep editorial and research work welcome here. This is not a PM session.
 
 ## Project Overview
 
-This is an academic research paper titled "LLMs as boundary phenomena" by Brett Reynolds.
+Short paper arguing that the debate over LLM cognition (are they "really" cognitive? merely linguistic?) is a category-boundary problem best handled by HPC theory and projection-purpose analysis, not by binary frameworks like Nefdt's (2026) 2x2 table.
+
+### Core Argument
+
+1. **Nefdt's Table 1 problem.** His Language/Cognition binary (humans: both; animals: cognition only; LLMs: language only) presupposes necessary-and-sufficient-condition categories. But the properties don't cleanly cluster into two groups: inferential reasoning, pragmatic implicature, analogical mapping, planning, and knowledge retrieval sit on a continuum between "clearly linguistic" and "clearly cognitive."
+
+2. **HPC reframing.** Language and cognition are homeostatic property clusters, not binary features. LLMs instantiate a novel combination of properties from the cluster: some typically associated with cognition (reasoning, analogy, perspective-taking), others absent (embodied experience, persistent memory, emotional states). They're a boundary case, not a clean new cell.
+
+3. **The tomato move.** The same LLM capacities get categorized as "linguistic" or "cognitive" depending on the projection purpose:
+   - Neuroscience projection (implementation): linguistic
+   - Functional projection (input-output behavior): cognitive
+   - Phenomenological projection (consciousness): undecidable
+   This is the tomato problem: fruit or vegetable depends on whether you're doing botany or cooking.
+
+4. **Why this matters.** The LLM case is a vivid, publicly accessible illustration of projection-purpose effects on categorization. Everyone has intuitions about whether ChatGPT "really thinks," making this a better pedagogical vehicle for the HPC point than grammatical boundary cases (which require technical background).
+
+### Key Sources (READ BEFORE WRITING)
+
+| Source | Role | Location |
+|--------|------|----------|
+| Nefdt (2026) "What it's like to be an LLM" | Primary interlocutor | `../../literature/Nefdt_2026_What_its_like_to_be_an_LLM.pdf` |
+| Boyd (1991, 1999) | HPC theory originals | Need to locate |
+| Cappelen & Dever (2025) | Pro-LLM-cognition position | Referenced in Nefdt |
+| Bender & Koller (2020) | Eliminativist position | Referenced in Nefdt |
+| Casto et al. (2025) | Linguistic vs. deep understanding | Referenced in Nefdt |
+| Mahowald et al. (2024) | Language/thought dissociation in LLMs | Referenced in Nefdt |
+| Powell (2020) *Contingency and Convergence* | Convergence/contingency framework | Brett's library |
+
+### Connections to Brett's Research Programme
+
+- **HPC theory in linguistics:** This extends the HPC framework to philosophy of AI
+- **Boundary phenomena:** LLMs as the paradigmatic boundary case for cognitive categories
+- **Grammaticality:** The "zone of maximum systematicity" concept applies here too
+- **Projection purposes:** The tomato analysis generalizes from grammatical categories to cognitive ones
+
+### Non-Negotiables
+
+- Don't strawman Nefdt. His paper is good; the criticism is that binary frameworks undersell his own insights.
+- The HPC framework should illuminate, not just relabel.
+- Keep it short. This is a comment/reply piece, not a monograph.
+- Source grounding LAW applies: verify all claims against Nefdt's actual text.
 
 ## Build System
 
-This LaTeX project requires **XeLaTeX** (not pdfLaTeX) due to the Charis SIL font requirement.
-
-**Avoid LuaLaTeX** – it tends to run words together in the underlying PDF text layer, breaking copy-paste and accessibility.
-
-### Compilation Commands
-
+XeLaTeX (not pdfLaTeX). `make` or:
 ```bash
-# Full build sequence
-xelatex main.tex
-biber main
-xelatex main.tex
-xelatex main.tex
-
-# Or use automated build
-make              # Full build
-make quick        # Single pass
-make clean        # Clean artifacts
-```
-
-The multiple runs are necessary to resolve all cross-references and citations.
-
-## File Structure
-
-```
-LLMs_as_boundary_phenomena/
-├── main.tex                  # Main document
-├── references.bib            # Bibliography
-├── .house-style/             # House style snapshot
-│   ├── preamble.tex         # LaTeX preamble
-│   └── style-rules.yaml     # Style conventions
-├── Makefile                  # Build automation
-├── CLAUDE.md                 # This file
-├── AGENTS.md                 # Synced with this file
-└── GEMINI.md                 # Synced with this file
+xelatex main.tex && biber main && xelatex main.tex && xelatex main.tex
 ```
 
 ## House Style
 
-This project uses Brett Reynolds house style (see `.house-style/style-rules.yaml`).
-
-### Key LaTeX Conventions
-
-**Terms, Mentions, Quotations:**
-- Use `\term{}` for terms/concepts (small caps): `\term{definiteness}`
-- Use `\mention{}` for mentions/forms (italics): `\mention{the}`
-- Use `\olang{}` for object language (italics): `\olang{der Hund}`
-- Use `\enquote{}` for quotations: `\enquote{actual quote}`
-- Never use raw quotes for mention
-
-**Cross-linguistic Notation:**
-- Cross-linguistic: `\textsc{subject}\crossmark`
-- Language-specific: `\textsc{subject}\textsubscript{eng}`
-
-**Dashes:**
-- Parenthetical: `foo~-- bar~-- baz` (en dash with spaces)
-- Ranges: `2001--2025` (en dash, no spaces)
-- Compounds: `corpus-based` (hyphen)
-
-**Citations:**
-- Parenthetical: `\citep{key}`
-- Textual: `\textcite{key}`
-
-**Citations and BibTeX (LAW):**
-- Citations and BibTeX entries must NEVER be placeholders
-- Citations must NEVER be generated from training data
-- LLMs MUST browse the web to find DOIs and verify bibliographic data
-- Every citation must be confirmed against an authoritative source
-- If you cannot verify a citation, say so. Do not guess. Do not fabricate.
-
-### Writing Style
-
-**Preferred:**
-- Use contractions (don't, won't)
-- Keep paragraphs ~60 words, max 100
-- Direct verbs and short clauses
-- Concrete before abstract
-
-**Avoid:**
-- Throat-clearers: "It is important to note that..."
-- `\paragraph{}` headings (use topic sentences)
-- Bold labels in prose
-- Hackneyed adverbs: moreover, furthermore
-
-**Document Structure:**
-- Use `\section{}` and `\subsection{}` only
-- Avoid bullet points for arguments (use prose)
-- Use ordinal markers: "first," "second," "third"
-
-**Examples (gb4e):**
-```latex
-\ea\label{ex:example}
-\textit{Example sentence.}
-\z
-```
-
-## Common Tasks
-
-**Adding References:**
-1. Add entry to `references.bib`
-2. Protect capitals: `title = {The {Cambridge} Grammar...}`
-3. Use `\textcite{key}` or `\citep{key}`
-
-**Building:**
-```bash
-make              # Full build
-make quick        # Fast build
-make clean        # Clean up
-```
-
-**Git Workflow:**
-- Pre-commit hook keeps CLAUDE.md, AGENTS.md, GEMINI.md synced
-- Commit often with meaningful messages
-- Build before committing to ensure no LaTeX errors
-
-## Multi-Agent Dispatch (MANDATORY)
-
-**Before dispatching multiple agents, ALWAYS ask Brett:**
-
-1. **Which model(s)?** Options: Claude, Codex, Gemini, Copilot
-   - Codex is often best for Brett's work
-   - Claude has the smallest context window
-   - Different models have different strengths
-
-2. **Redundant outputs?** Should multiple models tackle the same task?
-   - Useful for judgment calls (e.g., "Should I add this figure?")
-   - Not needed for factual tasks
-
-### CLI Command Patterns
-
-| CLI | Command | Notes |
-|-----|---------|-------|
-| **Codex** | `codex -p 'prompt' > output.txt &` | Include "Read [PATH] first" in prompt |
-| **Gemini** | `cat file.tex \| gemini --yolo -o text 'prompt'` | Must pipe content (file reading broken in YOLO) |
-| **Copilot** | `copilot -p 'prompt' > output.txt &` | Fast; add `--allow-all-tools` for file ops |
-
-**Token limits:** Gemini > Codex > Claude (most constrained)
-
-See portfolio `CLAUDE.md` or `HPC book/.agent/workflows/multi-agent-review.md` for full patterns.
+See `.house-style/style-rules.yaml`. Key rules:
+- `\term{}` for concepts, `\mention{}` for forms, `\enquote{}` for quotes
+- En-dash with spaces (`~-- `), never em-dashes
+- Contractions preferred, ~60 word paragraphs
+- `\textcite{}` narrative, `\citep{}` parenthetical

@@ -18,33 +18,97 @@ Humber Polytechnic \& University of Toronto}
 \maketitle
 
 \begin{abstract}
-TODO: Write abstract here.
+The debate over whether large language models \enquote{really think} reproduces a familiar pattern: a boundary case meets a binary classification. \textcite{nefdt2026} organises this debate through a $2\times 2$ matrix crossing language with cognition, placing LLMs in a \enquote{missing quadrant} of language without cognition. But the binary frame undersells his own insights. His hedging on proxies, partial capacities, and qualified attributions points toward something the table can't express: that language and cognition are cluster concepts with graded boundaries. \term{Homeostatic property cluster} (HPC) theory and projection-purpose analysis offer a better framework. The same LLM capacities get categorised as \enquote{linguistic} or \enquote{cognitive} depending on the analytical purpose~-- the same phenomenon that makes a tomato a vegetable or a fruit depending on whether you're a greengrocer or a botanist.
 \end{abstract}
 
 \section{Introduction}
 
-TODO: Write introduction here.
+Everyone has an opinion about whether ChatGPT \enquote{really thinks.} The debate reproduces a pattern familiar from philosophy of science: a boundary case meets a binary classification, and the deadlock gets mistaken for a factual disagreement.
 
-\section{Background}
+\textcite{nefdt2026} offers a sophisticated analysis. He frames the conceptual landscape through a $2\times 2$ matrix (his Table~1) crossing language with cognition. Humans have both. Non-human animals have cognition without language. LLMs, Nefdt argues, fill the \enquote{missing quadrant}: language without cognition (p.~4). They're \enquote{purely linguistic agents unplugged from integration with both larger cognitive structure and the world in which it evolved} (p.~12).
 
-TODO: Add background section.
+The table carves out genuine conceptual space and steers between the eliminativism of \textcite{bender2020} and the maximalism of \textcite{cappelen2025}. But its binary structure undersells Nefdt's own insights. His discussion is full of hedging, proxies, and qualified answers~-- scalar claims that a binary frame can't capture.
 
-\section{Analysis}
+This paper argues that \term{homeostatic property cluster} (HPC) theory \citep{boyd1991, boyd1999} handles the LLM case better. HPC theory deals with kinds defined not by necessary and sufficient conditions but by clusters of co-occurring properties held together by causal mechanisms. It also explains why the debate is so persistent: the answer depends on what the categorisation is for. Nefdt's hedging is a feature, not a bug.
 
-TODO: Add analysis section.
+\section{The binary and its discontents}
 
-\section{Discussion}
+Nefdt's Table~1 organises three cells of a $2\times 2$ matrix:
 
-TODO: Add discussion.
+\begin{table}[ht]
+\centering
+\begin{tabular}{lcc}
+\toprule
+ & Language & Cognition \\
+\midrule
+Humans & X & X \\
+Non-human animals & -- & X \\
+??? & X & -- \\
+\bottomrule
+\end{tabular}
+\caption{Conceptual possibilities, reproduced from \textcite{nefdt2026}, p.~4.}
+\label{tab:nefdt}
+\end{table}
 
-\section{Conclusion}
+The open question is whether anything occupies the third row~-- language without cognition. Nefdt's answer is that LLMs fill it. They \enquote{occupy a hitherto vacant part of conceptual space} (p.~4).
 
-TODO: Write conclusion.
+The table presupposes that \term{language} and \term{cognition} are necessary-and-sufficient-condition categories. Something either has language or it doesn't. Something either has cognition or it doesn't. The philosophical work consists in deciding which cell a system occupies.
+
+But Nefdt's own discussion undermines this binary at every turn. His \textsc{no brainer} principle states that \enquote{LLMs only model one aspect of cognition, namely (statistical) linguistic processing} (p.~6). This already blurs the boundary between columns: if statistical linguistic processing is an \enquote{aspect of cognition,} then LLMs don't simply lack cognition. They instantiate part of it.
+
+\textsc{cognition unplugged} goes further, drawing on \posscite{casto2025} distinction between \enquote{linguistic understanding} and \enquote{deep understanding.} Nefdt concludes that purely linguistic agents have \enquote{statistically-based proxies for more cognitively loaded states} (p.~8). But proxies aren't absences. A proxy for reasoning is on the same continuum as reasoning~-- a difference of degree, not kind.
+
+The hedging continues throughout section~4. On perspective: LLMs can be \enquote{trained to execute a particular point of view} (p.~10), but \enquote{the individual phenomenal level is missing} (p.~10). On time: they don't clearly have or lack temporal cognition; rather, \enquote{they could depending on the kinds of structures they employ} (p.~12). On cognitive agency generally: Nefdt titles his section~4.3 \enquote{Why I'm neither a realist nor an eliminativist} and locates himself in \enquote{a nonempty position in between} the two poles (p.~12).
+
+These aren't binary verdicts. They're positions along a continuum. The properties Nefdt distributes between \enquote{language} and \enquote{cognition}~-- inferential reasoning, perspective-taking, temporal processing, phenomenal experience~-- don't sort cleanly into two groups. They cluster, with graded and contested membership at the boundaries. As \textcite{mahowald2024} show, language and thought \enquote{dissociate} in LLMs, but partially and unevenly~-- not along a clean binary divide.
+
+\section{HPC reframing}
+
+HPC theory was developed by \textcite{boyd1991, boyd1999} to handle \term{natural kinds} that resist definition by necessary and sufficient conditions. Biological species are the paradigm case. There's no single property that all and only tigers share. Instead, there's a cluster of properties~-- striped fur, carnivorous diet, specific chromosome count, territorial behaviour~-- that tend to co-occur because of underlying causal mechanisms: shared genome, developmental constraints, ecological pressures. The cluster holds even when individual properties vary.
+
+The framework applies to language and cognition. In humans, properties like inferential reasoning, pragmatic implicature, analogical mapping, perspective-taking, planning, emotional response, and embodied experience cluster together. They do so because of homeostatic mechanisms: shared neural architecture, developmental trajectories, social interaction patterns, and embodied engagement with the world.
+
+But the clustering is contingent, not definitional. The properties co-occur in humans because of the particular causal structure of human biology and development. There's no a priori reason they have to.
+
+LLMs instantiate a novel combination from this cluster. They display some properties typically associated with cognition~-- inferential reasoning, analogical mapping, something like perspective-taking~-- while lacking others~-- embodied experience, persistent memory, emotional states, autonomous goal-formation. This doesn't make them a clean occupant of a \enquote{missing quadrant.} It makes them a boundary case in cluster space: exactly the kind of entity HPC theory was designed to handle and that binary categories systematically misclassify.
+
+\posscite{powell2020} convergence/contingency framework helps clarify which properties to expect in a novel system. Some properties are \term{convergent}: they recur across unrelated systems because similar functional pressures produce similar solutions. Pattern extraction and inferential reasoning may be convergent~-- any system under sufficient pressure to predict and generate natural language is likely to develop something functionally similar. Other properties are \term{contingent}: they depend on specific implementation history. The absence of embodiment in LLMs is a contingent feature of their engineering, not a deficit. The absence of phenomenal consciousness may be contingent too, or it may reflect deeper architectural constraints~-- an empirical question, not a definitional one.
+
+The HPC framework thus predicts exactly what we observe: a system that shares some cluster properties and lacks others, with the specific combination determined by causal mechanisms (training regime, architecture, data) rather than by a definitional boundary.
+
+\section{The tomato move}
+
+There's a further problem with the binary. Even granting that LLMs occupy some definite cell, we'd need to ask: definite relative to what?
+
+The same LLM capacities get categorised as \enquote{linguistic} or \enquote{cognitive} depending on the \term{projection purpose}~-- the analytical frame that determines what counts as a member of the category. Consider three projections.
+
+Under a neuroscience projection, we ask what mechanism produces the behaviour. LLMs process tokenised text via vector operations and statistical pattern-matching. By this criterion, their capacities are linguistic: produced by something analogous to a language-processing system, not by the full suite of cognitive machinery.
+
+Under a functional projection, we ask what the system does. LLMs draw inferences, construct analogies, adopt perspectives, and plan multi-step solutions. By this criterion, their capacities are cognitive: they exhibit the functional profile of cognition regardless of the underlying mechanism.
+
+Under a phenomenological projection, we ask whether there is something it is like to be the system \citep{nagel1974}. The answer for LLMs is probably no, or at least undecidable from the outside. By this criterion, the question of cognition can't be resolved.
+
+This is the tomato problem. To a botanist, a tomato is a fruit: it develops from the ovary of a flower and contains seeds. To a greengrocer, it's a vegetable: it's savoury, shelved with the peppers and onions. Neither classification is wrong. Each serves a different purpose, and the disagreement dissolves once you specify which purpose you're serving.
+
+Nefdt's Table~1 implicitly adopts something close to the neuroscience projection. LLMs lack the neural substrates and embodied integration associated with cognition in humans, so they go in the \enquote{language without cognition} cell. But this is a consequence of the projection chosen, not a discovery about LLMs. Under the functional projection, the same systems would land in \enquote{language and cognition}~-- and \textcite{cappelen2025} effectively argue for exactly this placement.
+
+The persistence of the \enquote{do LLMs really think?} debate is predicted by the HPC framework. It's a projection-purpose dispute disguised as a factual one. Resolving it doesn't require discovering a hidden fact about LLMs. It requires specifying the purpose of the categorisation.
+
+\section{Why this matters}
+
+The LLM case isn't just applied philosophy of AI. It's a publicly accessible illustration of how projection purposes shape categorisation~-- a point that's harder to see in technical cases like grammaticality, countability, or the mass/count distinction.
+
+Nefdt's analysis is better served by the HPC framework than by his table. His hedging, his \enquote{neither realist nor eliminativist} stance, his acknowledgment of proxies and partial capacities~-- these are exactly what HPC theory predicts for boundary cases. The framework doesn't force him to choose a cell. It lets him say what he already wants to say: that LLMs share some cluster properties with cognitive agents, lack others, and that the combination is genuinely novel.
+
+The framework also explains why eliminativists and maximalists talk past each other. \textcite{bender2020} adopt something like a neuroscience projection: LLMs don't ground meaning in embodied experience, so they don't understand language. \textcite{cappelen2025} adopt a functional projection: LLMs exhibit the behavioural profile of cognitive agents, so they do understand. Each is right relative to its projection purpose. The disagreement is irresolvable as long as both sides treat it as factual rather than perspectival.
+
+The question isn't whether LLMs \enquote{really} have cognition. It's which properties cluster, under what mechanisms, for what analytical purpose. That's the HPC question, and it has more interesting answers than yes or no.
 
 \section*{Acknowledgements}
 
 This paper was drafted with the assistance of large language models (Claude, Gemini, and GPT-4). All content has been reviewed and revised by the author, who takes full responsibility for the final text.
 
+\newpage
 \printbibliography
 
 \end{document}

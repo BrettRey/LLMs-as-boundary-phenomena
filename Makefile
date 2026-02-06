@@ -1,5 +1,5 @@
 # Makefile for LaTeX paper compilation
-# Naturalizing Typological Kinds: Comparanda, Mechanisms, and Measurement
+# LLMs as Boundary Phenomena
 
 # Configuration
 LATEX = xelatex
