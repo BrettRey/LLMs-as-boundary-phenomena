@@ -1,7 +1,7 @@
 # STATUS.md -- LLMs as Boundary Phenomena
 
 **Last updated:** 2026-02-06
-**Current phase:** First draft complete
+**Current phase:** Revised draft (post simulated review)
 **Target venue:** TBD (philosophy of AI journal, or commentary on Nefdt)
 **Collaborators:** None (sole author)
 
@@ -13,7 +13,9 @@
 - [x] Outline drafted
 - [x] Key sources located and read (Boyd, Cappelen & Dever, Casto et al.)
 - [x] First draft
-- [ ] Revision
+- [x] Simulated review (8 reviewers)
+- [x] Revision (post-review, ~185 words added)
+- [ ] Final polish
 - [ ] Submission
 
 ## Genesis
@@ -44,3 +46,17 @@ Arose from Brett's email exchange with Geoff Pullum about a pro-LLM Nature paper
 - House style checker: no violations
 - Added PhilPapers URL to nefdt2026 bib entry
 - Builds clean with `make`
+
+### 2026-02-06 (session 4, revision)
+- Implemented 8 targeted revisions responding to simulated reviews from Boyd, Godfrey-Smith, Heath, McCloskey, Zimmer, Harris, Nefdt, Millikan
+- Pre-empted "table as heuristic" objection (Section 2): even heuristic binaries constrain conceptual space
+- Acknowledged HPC is contested, citing Magnus (2014)
+- Added stakes after tomato analogy: *Nix v. Hedden* (1893), regulation/liability consequences
+- Distinguished epistemic hedging from ontological continuity (Section 2)
+- Added concession: binary table forces commitment; HPC's flexibility is a risk; claim is narrower
+- Softened neuroscience-projection attribution to Nefdt
+- Glossed "projection purpose" for readers unfamiliar with Goodman
+- Acknowledged etiological gap: natural vs. engineered clustering (Section 3)
+- Fixed Section 2 transition ("Consider the evidence" replaces redundant "But")
+- Net addition: ~185 words. Still within note scope.
+- Builds clean, no style violations
