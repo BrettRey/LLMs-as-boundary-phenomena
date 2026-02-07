@@ -1,7 +1,7 @@
 # STATUS.md -- LLMs as Boundary Phenomena
 
-**Last updated:** 2026-02-06
-**Current phase:** Second revision (Section 5 rewrite)
+**Last updated:** 2026-02-07
+**Current phase:** Third revision complete; ready for final read-through
 **Target venue:** TBD (philosophy of AI journal, or commentary on Nefdt)
 **Collaborators:** None (sole author)
 
@@ -72,3 +72,14 @@ Arose from Brett's email exchange with Geoff Pullum about a pro-LLM Nature paper
 - Multiple rounds of iteration on Shanahan characterization: from mechanistic deflationism → metalinguistic caution → vocabulary management → predicate overloading
 - Lesson: I (Claude) kept describing patterns when I should have been diagnosing them using the paper's own framework. Brett had to lead me to both the predicate-overloading insight and the essentialism diagnosis.
 - Builds clean, no style violations, 6 pages
+
+### 2026-02-07 (session 6, third revision)
+- **Homeostatic mechanisms paragraph:** Replaced etiological disclaimer with substantive argument. Training as candidate homeostatic mechanism; Huh et al. (2024) on representational convergence as evidence clustering is constrained not stipulated; Khalidi (2013) on etiological kinds. Boyd comparison normalizes incomplete mechanistic story.
+- **Category drift paragraph:** HPC kinds aren't static; LLMs reshaping cognitive categories in real time. New selection pressure on cognition cluster. Brett's insight — the entity is reshaping the kinds, not just occupying them.
+- **Channeling sentence:** Cluster kinds afford motivated property selection — structural framing, not attribution of bad faith.
+- **Source verification:** Downloaded and read B&K 2020 ("Climbing towards NLU") and Bender et al. 2021 ("Stochastic Parrots"). Confirmed B&K 2020 characterization is fair (meaning = form-intent relation, p. 5187). Stochastic Parrots is a different paper not cited in this note.
+- **Structural edits:** Cut §5 throat-clearing paragraph; sharpened §5 transition; added subtitle "A comment on Nefdt (2026)"; updated abstract with drift; intro tricolon previewing §5's three moves.
+- **Rhetorical polish:** Two humor lines (Nix v. Hedden customs schedule, essentialism shared assumption). Four figures: epiphonema ("a position his own table has no cell for"), anadiplosis (§2→§3 transition), litotes ("not obviously yes" for consciousness), tricolon close ("Same system, same capacities, three verdicts").
+- **Pairwise structural review:** All sections connect to §5 properly; no loose promises or unearned conclusions.
+- Paper now ~2,400 words, 7 pages. Two commits pushed to GitHub. Shareable PDF created.
+- Added huh2024 bib entry to centralized references.bib
