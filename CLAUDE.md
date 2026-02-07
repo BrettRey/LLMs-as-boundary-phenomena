@@ -40,11 +40,13 @@ Short paper arguing that the debate over LLM cognition (are they "really" cognit
 - **Boundary phenomena:** LLMs as the paradigmatic boundary case for cognitive categories
 - **Grammaticality:** The "zone of maximum systematicity" concept applies here too
 - **Projection purposes:** The tomato analysis generalizes from grammatical categories to cognitive ones
+- **Predicate overloading / noun analogy:** Cognitive predicates like "believes" are overloaded exactly like "noun" for syntacticians vs. semanticists — multiple purposes converge in core cases and diverge at boundaries. This is a structural parallel to Brett's core research on grammatical categories.
 
 ### Non-Negotiables
 
 - Don't strawman Nefdt. His paper is good; the criticism is that binary frameworks undersell his own insights.
 - The HPC framework should illuminate, not just relabel.
+- **Diagnose, don't describe.** When the paper has a theoretical framework, the conclusion must show it doing work on specific cases — not just illustrate patterns. "Property selection" describes what happens; "essentialism about cluster kinds" diagnoses it using HPC theory. Always push toward diagnosis.
 - Keep it short. This is a comment/reply piece, not a monograph.
 - Source grounding LAW applies: verify all claims against Nefdt's actual text.
 

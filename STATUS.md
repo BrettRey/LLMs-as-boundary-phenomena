@@ -1,7 +1,7 @@
 # STATUS.md -- LLMs as Boundary Phenomena
 
 **Last updated:** 2026-02-06
-**Current phase:** Revised draft (post simulated review)
+**Current phase:** Second revision (Section 5 rewrite)
 **Target venue:** TBD (philosophy of AI journal, or commentary on Nefdt)
 **Collaborators:** None (sole author)
 
@@ -60,3 +60,15 @@ Arose from Brett's email exchange with Geoff Pullum about a pro-LLM Nature paper
 - Fixed Section 2 transition ("Consider the evidence" replaces redundant "But")
 - Net addition: ~185 words. Still within note scope.
 - Builds clean, no style violations
+
+### 2026-02-06 (session 5, Section 5 deep revision)
+- Complete rewrite of Section 5's two diagnostic paragraphs
+- **Projection-mismatch paragraph:** Reframed as predicate overloading — cognitive predicates serve multiple purposes (predictive accuracy vs. productive engagement) that converge for humans, diverge at LLM boundary. Shanahan foregrounds accuracy (predicates overshoot); Cappelen & Dever foreground engagement (predicates necessary for productive interaction). Section 4's three projections framed as analytical-level instances; Section 5 shows vocabulary-level divergence.
+- **Essentialism paragraph:** Replaced Cappelen & Dever with Piantadosi & Hill (2022, "Meaning without Reference in LLMs") for property-selection pairing. B&K and P&H both ask about meaning but essentialize differently (grounding vs. conceptual role). HPC theory diagnoses this as treating a cluster kind as having necessary conditions.
+- Framing changed from "obvious/subtler" to "persistence/resolution": first pattern explains why debate persists; second, why disagreements resist resolution
+- Key insight (Brett-led): cognitive predicates are overloaded like "noun" for syntacticians vs. semanticists — multiple purposes converge in core cases, diverge at boundaries
+- Added piantadosi2022 bib entry (arXiv:2208.02957)
+- Added \label{sec:tomato} for cross-reference from Section 5
+- Multiple rounds of iteration on Shanahan characterization: from mechanistic deflationism → metalinguistic caution → vocabulary management → predicate overloading
+- Lesson: I (Claude) kept describing patterns when I should have been diagnosing them using the paper's own framework. Brett had to lead me to both the predicate-overloading insight and the essentialism diagnosis.
+- Builds clean, no style violations, 6 pages
