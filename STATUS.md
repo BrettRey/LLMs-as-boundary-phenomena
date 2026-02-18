@@ -1,8 +1,9 @@
 # STATUS.md -- LLMs as Boundary Phenomena
 
-**Last updated:** 2026-02-07
-**Current phase:** Third revision complete; ready for final read-through
-**Target venue:** TBD (philosophy of AI journal, or commentary on Nefdt)
+**Last updated:** 2026-02-12
+**Current phase:** Preprint uploaded to PhilPapers
+**PhilPapers:** https://philpapers.org/rec/REYLAB
+**Target venue:** TBD (journal submission pending Nefdt's publication)
 **Collaborators:** None (sole author)
 
 ## Progress
@@ -15,8 +16,11 @@
 - [x] First draft
 - [x] Simulated review (8 reviewers)
 - [x] Revision (post-review, ~185 words added)
-- [ ] Final polish
-- [ ] Submission
+- [x] Final polish (pre-submission check, Oxford spelling, page refs, punctuation)
+- [x] Preprint uploaded to PhilPapers (2026-02-12)
+- [x] Cluster-distinction revision (2026-02-18): "cognition" tracks distinct integration/capacity clusters
+- [ ] Update PhilPapers preprint with revised PDF
+- [ ] Journal submission (waiting for Nefdt 2026 to be published)
 
 ## Genesis
 
@@ -83,3 +87,23 @@ Arose from Brett's email exchange with Geoff Pullum about a pro-LLM Nature paper
 - **Pairwise structural review:** All sections connect to §5 properly; no loose promises or unearned conclusions.
 - Paper now ~2,400 words, 7 pages. Two commits pushed to GitHub. Shareable PDF created.
 - Added huh2024 bib entry to centralized references.bib
+
+### 2026-02-12 (session 7, pre-submission and upload)
+- **BibTeX audit:** All 20 entries verified against external sources. Three errors found: boyd1999 pages (141--185 → 141--186), khalidi2013 first name (Mohammad → Muhammad), Goodman1955 year/publisher (1955/Harvard → 1954/Athlone or 1983/Harvard 4th ed.). Brett declined fixes.
+- **Pre-submission check:** Full build clean (8 pages). All Nefdt quotes verified against PDF. Found page reference error (p.10 → p.9 for "trained to execute" quote). Found three punctuation-outside-quotes violations. Found overfull hbox (5pt) in projection-mismatch paragraph.
+- **Fixes applied:** Page ref corrected; punctuation moved outside \enquote{}; Oxford spelling (categorising → categorizing, reorganising → reorganizing); overfull resolved by rewording "stability across contexts" → "contextual stability" and dropping Oxford comma.
+- **Uploaded to PhilPapers:** https://philpapers.org/rec/REYLAB
+- Categories: Artificial Minds, Misc; Methodology of Linguistics, Misc; Philosophy of Cognitive Science, Misc
+
+### 2026-02-18 (session 8, cluster-distinction revision)
+- **Core new move:** "Cognition" tracks distinct property clusters (integration and capacity) that converge in humans, co-vary in non-human animals, and come apart for LLMs. Parallel to Brett's deitality/definiteness distinction.
+- **New paragraph in Section 4:** Two clusters under "cognition"; convergence in humans; co-variation in animals masked the ambiguity; LLMs break the co-variation via different causal pathway. Terminological distinction flagged as available.
+- **Revised Nefdt paragraph:** Table implicitly tracks the integration cluster — animals get +Cognition, LLMs get -Cognition, but under capacity cluster verdicts would differ.
+- **Revised Section 4 closing:** Disputants track different clusters under shared label.
+- **Section 5 bridge updated:** Scale shift from category level to vocabulary level made explicit.
+- **Shanahan/Cappelen & Dever mapping:** One sentence making integration/capacity mapping explicit.
+- **Abstract updated:** Now advertises cluster-distinction argument, not weaker tomato perspectivalism.
+- **Conclusion sharpened:** "a question that presupposes the predicate is univocal."
+- Chose Option B (flag) over Option A (coin): "cognitive integration" and "cognitive capacity" were drafted but Brett preferred flagging the move as available without committing to terms.
+- All edits pass style checker. Builds clean, 8 pages.
+- Updated PDF renamed for posting. PhilPapers preprint needs updating.
