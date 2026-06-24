@@ -1,6 +1,6 @@
 # STATUS.md -- LLMs as Boundary Phenomena
 
-**Last updated:** 2026-02-12
+**Last updated:** 2026-04-16
 **Current phase:** Preprint uploaded to PhilPapers
 **PhilPapers:** https://philpapers.org/rec/REYLAB
 **Target venue:** TBD (journal submission pending Nefdt's publication)
@@ -19,7 +19,10 @@
 - [x] Final polish (pre-submission check, Oxford spelling, page refs, punctuation)
 - [x] Preprint uploaded to PhilPapers (2026-02-12)
 - [x] Cluster-distinction revision (2026-02-18): "cognition" tracks distinct integration/capacity clusters
-- [ ] Update PhilPapers preprint with revised PDF
+- [x] Von der Malsburg & Padó (2026) integration — agreement attraction as integration/capacity evidence
+- [ ] Update PhilPapers preprint with revised PDF (now two revisions behind)
+- [ ] Consider Kısa et al. (2026) "Cognitive change without linguistic change" (*Cognition* 273, 106522) — Hai||om spatial cognition shifted geocentric→egocentric over ~20 years while language stayed geocentric. The language/cognition cluster dissociated under material-culture pressure. This is a human case of exactly the HPC point: the cluster's properties can come apart without the cluster dissolving. Strengthens the argument against Nefdt's binary (language tracks cognition) by showing it fails even within a single community undergoing cultural change, not just at the LLM boundary. Also relevant to mechanisms: language was assumed to be the homeostatic mechanism maintaining geocentric cognition, but material culture overrode it — multiple competing mechanisms, not a single determinant.
+- [ ] Consider Arora et al. (2026) "Language model circuits are sparse in the neuron basis" (arXiv:2601.22594) — ~100 MLP neurons control agreement; sparse, causally manipulable circuits. Evidence that integration/capacity cluster distinction has internal structural correlates, not just behavioural ones. Also: Arora et al. (2025) "Mechanistic evaluation of Transformers and state space models" — architecturally different models use fundamentally different mechanisms for the same task. This is convergent function from divergent structure (Powell's framework), applied to AI architectures.
 - [ ] Journal submission (waiting for Nefdt 2026 to be published)
 
 ## Genesis
@@ -27,6 +30,9 @@
 Arose from Brett's email exchange with Geoff Pullum about a pro-LLM Nature paper. Reading Nefdt's "What it's like to be an LLM" revealed that his 2x2 table (Language x Cognition) is a necessary-and-sufficient-conditions framework that HPC theory is designed to replace. The "tomato move" (is LLM reasoning linguistic or cognitive? depends on projection purpose) crystallized the argument.
 
 ## Session Log
+
+### 2026-04-16
+- Brett emailed Cameron Yetman (UofT) re his forthcoming *Ergo* paper on LLM representation, connecting to this project and the vector-grounding reply. Yetman replied same morning agreeing to read both. No deadline; informal comments expected. See `yetman-reply-2026-04-16.md`.
 
 ### 2026-02-06
 - Read Nefdt (2026) in full
@@ -107,3 +113,21 @@ Arose from Brett's email exchange with Geoff Pullum about a pro-LLM Nature paper
 - Chose Option B (flag) over Option A (coin): "cognitive integration" and "cognitive capacity" were drafted but Brett preferred flagging the move as available without committing to terms.
 - All edits pass style checker. Builds clean, 8 pages.
 - Updated PDF renamed for posting. PhilPapers preprint needs updating.
+
+### 2026-03-18 (session 9, von der Malsburg & Padó integration)
+- **New paragraph in Section 4:** Von der Malsburg & Padó (2026) as concrete evidence that integration/capacity clusters come apart within a single domain (morphosyntactic agreement). Transformers share grammatical capacity but replicate processing-channel effects only partially.
+- **Connection to grammaticality/acceptability distinction:** Agreement attraction is a processing-channel phenomenon (feeling of ungrammaticality), not a grammatical one. This explains why the capacity transfers but the processing signature doesn't.
+- **Email sent to von der Malsburg & Padó** offering the grammaticality/acceptability distinction as an explanation for their PP/ORC divergence. Pointed them to lingbuzz/009713 (the de-idealizing paper), not the PhilPapers preprint.
+- Bib entry added to references-local.bib. Builds clean, 9 pages.
+
+### Literature: Many Minds podcast (Frank & Lupyan, 2026-03-26)
+- **Boundary framing:** The whole podcast wrestles with whether LLMs are "really" doing cognition — exactly your paper's territory. Lupyan rejects the stochastic-parrots / autocomplete dichotomy. Frank: "we can't be lulled into the fact that a conversational agent speaks in language that we understand to think that it has exactly the same representations."
+- **Embodiment downgraded:** Lupyan: "LLMs have shifted my own personal view... downgrade the importance of sensory input." Frank: "many ways to ground" including code and math.
+- **Multiple realizability / Quine's topiary** (Frank): Same external behavior, different internal branches. Adjacent to HPC clustering on observables.
+- See `literature/many-minds-frank-lupyan-2026.md` for full notes + transcript.
+
+### 2026-03-29 (session 10, Cavell/Techio integration)
+- **New paragraph + footnote in Section 4:** Acknowledgment (Cavell 1969) as a third diagnostic pattern beyond projection mismatch and essentialism. Crosscuts both integration and capacity clusters. A system can have functional cognition and biological integration and still fail to acknowledge. Cites Techio (2026) essay on Cowen's GOAT and the "fiction layer," and Techio (2021) monograph on meaning as risky activity. Footnote references Cavell's "Avoidance of Love" on soul-blindness.
+- **Source verification:** Characterisation of Techio (2021) confirmed against Severo (2022) review in Nordic Wittgenstein Review.
+- **Bib entries added to central bib:** Cavell1979ClaimOfReason, Cavell1988InQuest, Cavell1969AvoidanceOfLove, Cavell1969KnowingAcknowledging, Techio2026ClaimTrainingData, Techio2021ThreatSolipsism. DOI corrected (was wrong De Gruyter ID).
+- Builds clean, 9 pages.
