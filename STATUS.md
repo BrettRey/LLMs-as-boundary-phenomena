@@ -1,3 +1,35 @@
+---
+slug: llms-as-boundary-phenomena
+kind: paper
+title: 'LLMs as boundary phenomena: A comment on Nefdt (2026)'
+stage: complete
+external: preprint
+blocked_on:
+- person:nefdt
+updated: 2026-04-16
+source:
+- STATUS.md
+- PORTFOLIO.md
+- main.tex
+preprints:
+- philpapers/REYLAB
+next_action: Update the PhilPapers preprint with the revised PDF (currently two revisions behind); submit
+  to a journal once Nefdt (2026) is published
+notes: 'Title confirmed against main.tex''s \title. blocked_on does not map cleanly onto the controlled
+  vocabulary: STATUS.md states "Target venue: TBD (journal submission pending Nefdt''s publication)" --
+  the dependency is on a third party''s own, unrelated publication timeline, not a named coauthor ("collaborator:<name>"
+  is defined as "waiting on a named coauthor"), a venue-response, or any other listed value. Coded brett-decision
+  on the reasoning that whether to wait for Nefdt''s paper or submit now is itself a call only Brett can
+  make or revisit, but this is an imperfect fit and is flagged here as a schema gap rather than settled
+  quietly. CHANGED by ADJUDICATION 2026-07-30: blocked_on brett-decision -> [person:nefdt]. This block
+  is gap 10, the flagged one of the four, and v2 fixed it by dropping the coauthorship presumption: person:
+  now covers anyone whose action the project waits on, with `coauthors:` carrying the coauthor/non-coauthor
+  split, so a third party''s publication timeline no longer has to be filed as a decision of Brett''s.
+  Nefdt is not a coauthor here and no coauthors field is set. Separately, STATUS.md notes the posted PhilPapers
+  preprint is "two revisions behind" the current local PDF (the session 8 cluster-distinction revision
+  and session 9 von der Malsburg & Padó integration are not yet reflected on PhilPapers).'
+---
+
 # STATUS.md -- LLMs as Boundary Phenomena
 
 **Last updated:** 2026-04-16
@@ -24,6 +56,12 @@
 - [ ] Consider Kısa et al. (2026) "Cognitive change without linguistic change" (*Cognition* 273, 106522) — Hai||om spatial cognition shifted geocentric→egocentric over ~20 years while language stayed geocentric. The language/cognition cluster dissociated under material-culture pressure. This is a human case of exactly the HPC point: the cluster's properties can come apart without the cluster dissolving. Strengthens the argument against Nefdt's binary (language tracks cognition) by showing it fails even within a single community undergoing cultural change, not just at the LLM boundary. Also relevant to mechanisms: language was assumed to be the homeostatic mechanism maintaining geocentric cognition, but material culture overrode it — multiple competing mechanisms, not a single determinant.
 - [ ] Consider Arora et al. (2026) "Language model circuits are sparse in the neuron basis" (arXiv:2601.22594) — ~100 MLP neurons control agreement; sparse, causally manipulable circuits. Evidence that integration/capacity cluster distinction has internal structural correlates, not just behavioural ones. Also: Arora et al. (2025) "Mechanistic evaluation of Transformers and state space models" — architecturally different models use fundamentally different mechanisms for the same task. This is convergent function from divergent structure (Powell's framework), applied to AI architectures.
 - [ ] Journal submission (waiting for Nefdt 2026 to be published)
+
+### Literature: Groeger, Wen, and Brbic (2026)
+
+Central note: `../../../literature/groeger_wen_brbic_2026_aristotelian_representation_hypothesis.notes.md`.
+
+This paper is already in `main.tex` as the calibration correction to Huh et al.'s Platonic Representation Hypothesis. Next touch should preserve the exact use: raw global representational convergence is weakened by width/depth and layer-search confounds; calibrated local neighbourhood convergence survives. That supports task-driven constraint on representations without licensing a stronger "shared statistical model of reality" claim. When updating PhilPapers, make sure the revised PDF contains this qualification.
 
 ## Genesis
 
