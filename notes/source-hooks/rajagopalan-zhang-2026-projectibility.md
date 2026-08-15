@@ -4,8 +4,8 @@
 
 ## Sources
 
-- Yanzhe Zhang, Sanmi Koyejo, and Diyi Yang, “The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context,” arXiv:2607.12963v2, 15 July 2026. Local source: `/Users/brettreynolds/Downloads/2607.12963v2.md`.
-- Shruti Rajagopalan, “Governing Agentic AI: Why Legal Personhood Is Neither Necessary nor Sufficient,” working-paper revision, 15 July 2026. Local source: `/Users/brettreynolds/Downloads/ssrn-7127038.md`.
+- Yanzhe Zhang, Sanmi Koyejo, and Diyi Yang, “The Illusion of Robustness: Aggregate Accuracy Hides Prediction Flips under Task-Irrelevant Context,” arXiv:2607.12963v2, 15 July 2026. Local source: `/Users/brettreynolds/projects/LLM-CLI-projects/literature/zhang2026illusionRobustness-v2.md`.
+- Shruti Rajagopalan, “Governing Agentic AI: Why Legal Personhood Is Neither Necessary nor Sufficient,” working-paper revision, 15 July 2026. Local source: `/Users/brettreynolds/projects/LLM-CLI-projects/literature/rajagopalan2026governingAgenticAI.md`.
 
 ## Zhang: capacity is not contextual projectibility
 
