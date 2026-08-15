@@ -6,15 +6,18 @@ stage: complete
 external: preprint
 blocked_on:
 - person:nefdt
-updated: 2026-04-16
+updated: 2026-08-14
 source:
 - STATUS.md
 - PORTFOLIO.md
 - main.tex
 preprints:
 - philpapers/REYLAB
-next_action: Update the PhilPapers preprint with the revised PDF (currently two revisions behind); submit
-  to a journal once Nefdt (2026) is published
+next_action: 'v3 recast, then PhilPapers update (decision 2026-08-14, see DECISIONS.md): recast
+  projectibility-first and fold in Sripada & Lewis / Hu et al., Ladyman & Nefdt (EJPS), Nefdt &
+  Ladyman (BBS e219), and Futrell & Mahowald before pushing any revision public. Do not push the
+  current local PDF as-is. Journal submission still waits on Nefdt (2026) publication (checked
+  2026-08-14: unpublished).'
 notes: 'Title confirmed against main.tex''s \title. blocked_on does not map cleanly onto the controlled
   vocabulary: STATUS.md states "Target venue: TBD (journal submission pending Nefdt''s publication)" --
   the dependency is on a third party''s own, unrelated publication timeline, not a named coauthor ("collaborator:<name>"
@@ -31,8 +34,9 @@ notes: 'Title confirmed against main.tex''s \title. blocked_on does not map clea
 ---
 
 # STATUS.md -- LLMs as Boundary Phenomena
+<!-- SUMMARY: Preprint live (PhilPapers REYLAB) but two revisions behind; next move is a projectibility-first v3 recast engaging Sripada-Lewis and Ladyman-Nefdt, then preprint update; journal submission blocked on Nefdt (2026) publication · status: sleeping until v3 day · updated: 2026-08-14 -->
 
-**Last updated:** 2026-04-16
+**Last updated:** 2026-08-14
 **Current phase:** Preprint uploaded to PhilPapers
 **PhilPapers:** https://philpapers.org/rec/REYLAB
 **Target venue:** TBD (journal submission pending Nefdt's publication)
@@ -52,7 +56,7 @@ notes: 'Title confirmed against main.tex''s \title. blocked_on does not map clea
 - [x] Preprint uploaded to PhilPapers (2026-02-12)
 - [x] Cluster-distinction revision (2026-02-18): "cognition" tracks distinct integration/capacity clusters
 - [x] Von der Malsburg & Padó (2026) integration — agreement attraction as integration/capacity evidence
-- [ ] Update PhilPapers preprint with revised PDF (now two revisions behind)
+- [ ] v3 recast (decision 2026-08-14): projectibility-first reframe + Sripada & Lewis / Hu et al. / Ladyman & Nefdt / Nefdt & Ladyman / Futrell & Mahowald (hooks in `notes/source-hooks/`); supersedes the plain "push revised PDF" step — do not update PhilPapers before the recast
 - [ ] Consider Kısa et al. (2026) "Cognitive change without linguistic change" (*Cognition* 273, 106522) — Hai||om spatial cognition shifted geocentric→egocentric over ~20 years while language stayed geocentric. The language/cognition cluster dissociated under material-culture pressure. This is a human case of exactly the HPC point: the cluster's properties can come apart without the cluster dissolving. Strengthens the argument against Nefdt's binary (language tracks cognition) by showing it fails even within a single community undergoing cultural change, not just at the LLM boundary. Also relevant to mechanisms: language was assumed to be the homeostatic mechanism maintaining geocentric cognition, but material culture overrode it — multiple competing mechanisms, not a single determinant.
 - [ ] Consider Arora et al. (2026) "Language model circuits are sparse in the neuron basis" (arXiv:2601.22594) — ~100 MLP neurons control agreement; sparse, causally manipulable circuits. Evidence that integration/capacity cluster distinction has internal structural correlates, not just behavioural ones. Also: Arora et al. (2025) "Mechanistic evaluation of Transformers and state space models" — architecturally different models use fundamentally different mechanisms for the same task. This is convergent function from divergent structure (Powell's framework), applied to AI architectures.
 - [ ] Journal submission (waiting for Nefdt 2026 to be published)
