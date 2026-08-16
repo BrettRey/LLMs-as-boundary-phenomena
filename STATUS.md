@@ -1,45 +1,28 @@
 ---
 slug: llms-as-boundary-phenomena
 kind: paper
-title: 'LLMs as boundary phenomena: A comment on Nefdt (2026)'
+title: 'LLMs as boundary phenomena: Bearers and cognitive attribution'
 stage: complete
 external: preprint
-blocked_on:
-- person:nefdt
-updated: 2026-08-14
+blocked_on: []
+updated: 2026-08-15
 source:
 - STATUS.md
 - PORTFOLIO.md
 - main.tex
 preprints:
 - philpapers/REYLAB
-next_action: 'v3 recast, then PhilPapers update (decision 2026-08-14, see DECISIONS.md): recast
-  projectibility-first and fold in Sripada & Lewis / Hu et al., Ladyman & Nefdt (EJPS), Nefdt &
-  Ladyman (BBS e219), and Futrell & Mahowald before pushing any revision public. Do not push the
-  current local PDF as-is. Journal submission still waits on Nefdt (2026) publication (checked
-  2026-08-14: unpublished).'
-notes: 'Title confirmed against main.tex''s \title. blocked_on does not map cleanly onto the controlled
-  vocabulary: STATUS.md states "Target venue: TBD (journal submission pending Nefdt''s publication)" --
-  the dependency is on a third party''s own, unrelated publication timeline, not a named coauthor ("collaborator:<name>"
-  is defined as "waiting on a named coauthor"), a venue-response, or any other listed value. Coded brett-decision
-  on the reasoning that whether to wait for Nefdt''s paper or submit now is itself a call only Brett can
-  make or revisit, but this is an imperfect fit and is flagged here as a schema gap rather than settled
-  quietly. CHANGED by ADJUDICATION 2026-07-30: blocked_on brett-decision -> [person:nefdt]. This block
-  is gap 10, the flagged one of the four, and v2 fixed it by dropping the coauthorship presumption: person:
-  now covers anyone whose action the project waits on, with `coauthors:` carrying the coauthor/non-coauthor
-  split, so a third party''s publication timeline no longer has to be filed as a decision of Brett''s.
-  Nefdt is not a coauthor here and no coauthors field is set. Separately, STATUS.md notes the posted PhilPapers
-  preprint is "two revisions behind" the current local PDF (the session 8 cluster-distinction revision
-  and session 9 von der Malsburg & Padó integration are not yet reflected on PhilPapers).'
+next_action: 'Update PhilPapers/PhilArchive REYLAB with the completed standalone v5 PDF after Brett signs in; synchronize the changed title and abstract; then prepare the anonymous Philosophical Psychology submission package.'
+notes: 'The posted PhilPapers preprint remains version 2. The standalone v5 revision is complete locally. Nefdt remains the principal case but his publication status is no longer a submission dependency.'
 ---
 
 # STATUS.md -- LLMs as Boundary Phenomena
-<!-- SUMMARY: Preprint live (PhilPapers REYLAB) but two revisions behind; next move is a projectibility-first v3 recast engaging Sripada-Lewis and Ladyman-Nefdt, then preprint update; journal submission blocked on Nefdt (2026) publication · status: sleeping until v3 day · updated: 2026-08-14 -->
+<!-- SUMMARY: Preprint live as version 2 (PhilPapers REYLAB); standalone v5 complete and awaiting upload; target venue Philosophical Psychology; no external submission blocker · updated: 2026-08-15 -->
 
-**Last updated:** 2026-08-14
-**Current phase:** Preprint uploaded to PhilPapers
+**Last updated:** 2026-08-15
+**Current phase:** Standalone v5 ready; PhilPapers update pending sign-in
 **PhilPapers:** https://philpapers.org/rec/REYLAB
-**Target venue:** TBD (journal submission pending Nefdt's publication)
+**Target venue:** *Philosophical Psychology*
 **Collaborators:** None (sole author)
 
 ## Progress
@@ -56,10 +39,14 @@ notes: 'Title confirmed against main.tex''s \title. blocked_on does not map clea
 - [x] Preprint uploaded to PhilPapers (2026-02-12)
 - [x] Cluster-distinction revision (2026-02-18): "cognition" tracks distinct integration/capacity clusters
 - [x] Von der Malsburg & Padó (2026) integration — agreement attraction as integration/capacity evidence
-- [ ] v3 recast (decision 2026-08-14): projectibility-first reframe + Sripada & Lewis / Hu et al. / Ladyman & Nefdt / Nefdt & Ladyman / Futrell & Mahowald (hooks in `notes/source-hooks/`); supersedes the plain "push revised PDF" step — do not update PhilPapers before the recast
+- [x] Venue selected (2026-08-15): *Philosophical Psychology*; eventual submission will be framed as an original article under the journal's current author guidelines
+- [x] v3 recast (2026-08-15): projectibility-first reframe + Sripada & Lewis / Hu et al. / Ladyman & Nefdt / Nefdt & Ladyman / Futrell & Mahowald; built and visually checked
+- [x] v4 revision (2026-08-15): Sol-led surgical revision after independent and external review; added full declaration schema, bounded Hu projection, failed von der Malsburg--Padó projection, source corrections, and prospective decision rule; built and visually checked
+- [x] v5 standalone revision (2026-08-15): made bearer-relativity the first-order objection; added Dennett, Shanahan, construct-validity, and capacity-attribution positioning; added the Kosinski/Ullman repair; recast HPC as a prospective dissociation hypothesis; stated failure conditions; rebuilt and visually checked at eight pages
+- [ ] Update PhilPapers/PhilArchive `REYLAB` with v5 and synchronize the changed title and abstract (PDF ready; requires PhilArchive sign-in)
 - [ ] Consider Kısa et al. (2026) "Cognitive change without linguistic change" (*Cognition* 273, 106522) — Hai||om spatial cognition shifted geocentric→egocentric over ~20 years while language stayed geocentric. The language/cognition cluster dissociated under material-culture pressure. This is a human case of exactly the HPC point: the cluster's properties can come apart without the cluster dissolving. Strengthens the argument against Nefdt's binary (language tracks cognition) by showing it fails even within a single community undergoing cultural change, not just at the LLM boundary. Also relevant to mechanisms: language was assumed to be the homeostatic mechanism maintaining geocentric cognition, but material culture overrode it — multiple competing mechanisms, not a single determinant.
 - [ ] Consider Arora et al. (2026) "Language model circuits are sparse in the neuron basis" (arXiv:2601.22594) — ~100 MLP neurons control agreement; sparse, causally manipulable circuits. Evidence that integration/capacity cluster distinction has internal structural correlates, not just behavioural ones. Also: Arora et al. (2025) "Mechanistic evaluation of Transformers and state space models" — architecturally different models use fundamentally different mechanisms for the same task. This is convergent function from divergent structure (Powell's framework), applied to AI architectures.
-- [ ] Journal submission (waiting for Nefdt 2026 to be published)
+- [ ] Prepare the anonymous *Philosophical Psychology* submission package under the live author guidelines
 
 ### Literature: Groeger, Wen, and Brbic (2026)
 
